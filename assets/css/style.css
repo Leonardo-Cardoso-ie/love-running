@@ -280,14 +280,12 @@ footer {
         margin: 0 auto;
     }
 
-
     #welcome {
         padding: 30px 0;
         margin: 0;
     }
 
-    #left-about,
-    #right-about {
+    #left-about, #right-about {
         width: 100%;
         float: left;
         padding: 0;
@@ -310,7 +308,6 @@ footer {
     hr {
         display: none;
     }
-
 }
 
 /* For medium screen sizes from 950px wide and down */
@@ -341,7 +338,7 @@ footer {
     .left-about-heading h2, .right-about-heading h2 {
         width: 100%;
         text-align: center;
-    } 
+    }
 
     .left-about-heading p, .right-about-heading p {
         text-align: center;
@@ -351,12 +348,11 @@ footer {
     #photos {
         column-count: 3;
     }
-
 }
 
-/* For small screen sizes 800 px and down */
+/* For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
     #photos {
         column-count: 2;
     }
-}
+} 
